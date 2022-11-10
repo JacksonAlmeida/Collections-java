@@ -1,0 +1,15 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		System.out.println("Crie uma lista e adicione as sete notas: ");
+		List<double> notas = new ArrayList<>();
+		notas.add(1);
+		System.out.println(notas);
+	}
+	
+}
